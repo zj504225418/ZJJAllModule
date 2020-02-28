@@ -1,0 +1,6 @@
+framework module ZJJAllModule {
+  umbrella header "ZJJAllModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

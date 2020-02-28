@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		103087A7A188D913B16A7EF4 /* ZJJAllModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJJAllModule.podspec; path = ../ZJJAllModule.podspec; sourceTree = "<group>"; };
+		103087A7A188D913B16A7EF4 /* ZJJAllModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJJAllModule.podspec; path = ../ZJJAllModule.podspec; sourceTree = "<group>"; };
 		42307083DB57AD867B2C6C3A /* Pods-ZJJAllModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		533407249376FB9BEAD95209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		533407249376FB9BEAD95209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		59AB8B1B3E4F90F6862C93C5 /* Pods-ZJJAllModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Example.release.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Example/Pods-ZJJAllModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZJJAllModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJJAllModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B9B57F92ADB2C14DDF2E281 /* Pods_ZJJAllModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJJAllModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11C3613C798A89AAADB111A /* Pods-ZJJAllModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Example/Pods-ZJJAllModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFE2459E59BBBE7A3BEC33B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFE2459E59BBBE7A3BEC33B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				42307083DB57AD867B2C6C3A /* Pods-ZJJAllModule_Tests.debug.xcconfig */,
 				6C2D4A53504CC9B54891FB31 /* Pods-ZJJAllModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zj504225418;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MN3L9MS2DL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = B11C3613C798A89AAADB111A /* Pods-ZJJAllModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJJAllModule/ZJJAllModule-Prefix.pch";
 				INFOPLIST_FILE = "ZJJAllModule/ZJJAllModule-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 59AB8B1B3E4F90F6862C93C5 /* Pods-ZJJAllModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJJAllModule/ZJJAllModule-Prefix.pch";
 				INFOPLIST_FILE = "ZJJAllModule/ZJJAllModule-Info.plist";

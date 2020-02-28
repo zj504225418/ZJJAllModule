@@ -1,0 +1,22 @@
+{
+  "name": "ZJJAllModule",
+  "version": "0.1.0",
+  "summary": "A short description of ZJJAllModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zj504225418/ZJJAllModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zj504225418": "504225418@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zj504225418/ZJJAllModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZJJAllModule/Classes/**/*"
+}
