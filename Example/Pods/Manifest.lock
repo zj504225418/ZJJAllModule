@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - ZJJAllModule (0.1.0)
+  - ZJJAllModule (0.1.0):
+    - ZJJAllModule/BYTimer (= 0.1.0)
+  - ZJJAllModule/BYTimer (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZJJAllModule: ac1d1c6cec99d59465c31015e80ac7a25b64a9d1
+  ZJJAllModule: dccb6043851d5681c37daff4490f3e208c7dd30f
 
 PODFILE CHECKSUM: a91f386718a429a25b49be054145be28faf518b9
 

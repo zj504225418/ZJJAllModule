@@ -1,8 +1,8 @@
 {
   "name": "ZJJAllModule",
   "version": "0.1.0",
-  "summary": "A short description of ZJJAllModule.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "赵静静的组件库",
+  "description": "组件集合",
   "homepage": "https://github.com/zj504225418/ZJJAllModule",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZJJAllModule/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "BYTimer",
+      "source_files": "ZJJAllModule/Classes/BYTimer/**/*"
+    }
+  ]
 }
