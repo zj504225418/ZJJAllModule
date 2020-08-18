@@ -1,29 +1,18 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - ZJJAllModule (0.1.0):
     - ZJJAllModule/BYTimer (= 0.1.0)
   - ZJJAllModule/BYTimer (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - ZJJAllModule (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ZJJAllModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   ZJJAllModule: dccb6043851d5681c37daff4490f3e208c7dd30f
 
-PODFILE CHECKSUM: a91f386718a429a25b49be054145be28faf518b9
+PODFILE CHECKSUM: a27bb3a7d10b751ce76d5d520bc50876d40f6aa3
 
 COCOAPODS: 1.8.4

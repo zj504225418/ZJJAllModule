@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://gitlab.byxf.com/front/BYSpecs.git'
+
 platform :ios, '8.0'
 
 target 'ZJJAllModule_Example' do
@@ -8,6 +11,6 @@ target 'ZJJAllModule_Example' do
   target 'ZJJAllModule_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'BYAllModule/BYUtil'
   end
 end

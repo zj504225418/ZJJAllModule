@@ -10,19 +10,38 @@
 		0D6FD0B124DBEC7C00B5B98E /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B024DBEC7C00B5B98E /* AppIcon60x60.png */; };
 		0D6FD0B324DBFBA500B5B98E /* AppIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B224DBFBA500B5B98E /* AppIcon1024.png */; };
 		0D6FD0B524DBFBC200B5B98E /* AppIcon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B424DBFBC200B5B98E /* AppIcon120x120.png */; };
+		0D6FD0B724DD573C00B5B98E /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B624DD573C00B5B98E /* AppIcon29x29.png */; };
+		0D6FD0BF24DD5D1000B5B98E /* ZJJICarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FD0BE24DD5D1000B5B98E /* ZJJICarouselViewController.m */; };
+		0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FD0C124DD5D2200B5B98E /* iCarousel.m */; };
+		0D6FD0D924E13EA800B5B98E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6FD0D824E13EA700B5B98E /* CoreText.framework */; };
+		0DAC92D224E767900050BE05 /* ZJJTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */; };
+		0DAC92D324E767900050BE05 /* ZJJCAEAGLLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BD24E767900050BE05 /* ZJJCAEAGLLayerViewController.m */; };
+		0DAC92D424E767900050BE05 /* ZJJTransform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAC92C124E767900050BE05 /* ZJJTransform3DViewController.xib */; };
+		0DAC92D524E767900050BE05 /* ZJJCATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92C324E767900050BE05 /* ZJJCATransformLayerViewController.m */; };
+		0DAC92D624E767900050BE05 /* ZJJCAShaperLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92C624E767900050BE05 /* ZJJCAShaperLayerViewController.m */; };
+		0DAC92D724E767900050BE05 /* ZJJHitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92C824E767900050BE05 /* ZJJHitTestView.m */; };
+		0DAC92D824E767900050BE05 /* ZJJCAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92C924E767900050BE05 /* ZJJCAReplicatorLayerViewController.m */; };
+		0DAC92D924E767900050BE05 /* ZJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92CA24E767900050BE05 /* ZJJViewController.m */; };
+		0DAC92DA24E767900050BE05 /* ZJJCATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92CC24E767900050BE05 /* ZJJCATextLayerViewController.m */; };
+		0DAC92DB24E767900050BE05 /* ZJJLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92CE24E767900050BE05 /* ZJJLayerLabel.m */; };
+		0DAC92DC24E767900050BE05 /* ZJJCAGrradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92CF24E767900050BE05 /* ZJJCAGrradientLayerViewController.m */; };
+		0DAC92DD24E767900050BE05 /* ZJJCAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92D024E767900050BE05 /* ZJJCAEmitterLayerViewController.m */; };
+		0DAC92DE24E767900050BE05 /* ZJJReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92D124E767900050BE05 /* ZJJReflectionView.m */; };
+		0DAC92E224E768370050BE05 /* ZJJDianzanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92E124E768370050BE05 /* ZJJDianzanViewController.m */; };
+		0DAC92E524E7685A0050BE05 /* ZJJDianZanBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92E424E7685A0050BE05 /* ZJJDianZanBtn.m */; };
+		0DAC92E824E95CC20050BE05 /* ZJJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */; };
+		0DAC92EB24EA14C90050BE05 /* ZJJAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */; };
+		0DAC92F024EBBC6E0050BE05 /* ZJJAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZJJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZJJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E4AC40B4B328F9E265DFADB1 /* Pods_ZJJAllModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AFE01B32C401BD66BD79C5 /* Pods_ZJJAllModule_Tests.framework */; };
@@ -43,6 +62,47 @@
 		0D6FD0B024DBEC7C00B5B98E /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
 		0D6FD0B224DBFBA500B5B98E /* AppIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon1024.png; sourceTree = "<group>"; };
 		0D6FD0B424DBFBC200B5B98E /* AppIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120x120.png; sourceTree = "<group>"; };
+		0D6FD0B624DD573C00B5B98E /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		0D6FD0BD24DD5D1000B5B98E /* ZJJICarouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZJJICarouselViewController.h; path = "轮播图/ZJJICarouselViewController.h"; sourceTree = "<group>"; };
+		0D6FD0BE24DD5D1000B5B98E /* ZJJICarouselViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZJJICarouselViewController.m; path = "轮播图/ZJJICarouselViewController.m"; sourceTree = "<group>"; };
+		0D6FD0C124DD5D2200B5B98E /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		0D6FD0C224DD5D2200B5B98E /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0D6FD0D824E13EA700B5B98E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0DAC92B924E767900050BE05 /* ZJJHitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJHitTestView.h; sourceTree = "<group>"; };
+		0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJTransform3DViewController.m; sourceTree = "<group>"; };
+		0DAC92BB24E767900050BE05 /* ZJJCAShaperLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAShaperLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92BC24E767900050BE05 /* ZJJCATextLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCATextLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92BD24E767900050BE05 /* ZJJCAEAGLLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCAEAGLLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92BE24E767900050BE05 /* ZJJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJViewController.h; sourceTree = "<group>"; };
+		0DAC92BF24E767900050BE05 /* ZJJCAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92C024E767900050BE05 /* ZJJCAGrradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAGrradientLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92C124E767900050BE05 /* ZJJTransform3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJJTransform3DViewController.xib; sourceTree = "<group>"; };
+		0DAC92C224E767900050BE05 /* ZJJLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJLayerLabel.h; sourceTree = "<group>"; };
+		0DAC92C324E767900050BE05 /* ZJJCATransformLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCATransformLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92C424E767900050BE05 /* ZJJReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJReflectionView.h; sourceTree = "<group>"; };
+		0DAC92C524E767900050BE05 /* ZJJCAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92C624E767900050BE05 /* ZJJCAShaperLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCAShaperLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92C724E767900050BE05 /* ZJJTransform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJTransform3DViewController.h; sourceTree = "<group>"; };
+		0DAC92C824E767900050BE05 /* ZJJHitTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJHitTestView.m; sourceTree = "<group>"; };
+		0DAC92C924E767900050BE05 /* ZJJCAReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCAReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92CA24E767900050BE05 /* ZJJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJViewController.m; sourceTree = "<group>"; };
+		0DAC92CB24E767900050BE05 /* ZJJCAEAGLLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAEAGLLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92CC24E767900050BE05 /* ZJJCATextLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCATextLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92CD24E767900050BE05 /* ZJJCATransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCATransformLayerViewController.h; sourceTree = "<group>"; };
+		0DAC92CE24E767900050BE05 /* ZJJLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJLayerLabel.m; sourceTree = "<group>"; };
+		0DAC92CF24E767900050BE05 /* ZJJCAGrradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCAGrradientLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92D024E767900050BE05 /* ZJJCAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJCAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		0DAC92D124E767900050BE05 /* ZJJReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJReflectionView.m; sourceTree = "<group>"; };
+		0DAC92E024E768370050BE05 /* ZJJDianzanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJDianzanViewController.h; sourceTree = "<group>"; };
+		0DAC92E124E768370050BE05 /* ZJJDianzanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJDianzanViewController.m; sourceTree = "<group>"; };
+		0DAC92E324E7685A0050BE05 /* ZJJDianZanBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJDianZanBtn.h; sourceTree = "<group>"; };
+		0DAC92E424E7685A0050BE05 /* ZJJDianZanBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJDianZanBtn.m; sourceTree = "<group>"; };
+		0DAC92E624E95CC20050BE05 /* ZJJTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTableViewController.h; sourceTree = "<group>"; };
+		0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTableViewController.m; sourceTree = "<group>"; };
+		0DAC92E924EA14C90050BE05 /* ZJJAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJAnimationViewController.h; sourceTree = "<group>"; };
+		0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJAnimationViewController.m; sourceTree = "<group>"; };
+		0DAC92EE24EBBC6E0050BE05 /* ZJJAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJAnimationView.h; sourceTree = "<group>"; };
+		0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJAnimationView.m; sourceTree = "<group>"; };
 		103087A7A188D913B16A7EF4 /* ZJJAllModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJJAllModule.podspec; path = ../ZJJAllModule.podspec; sourceTree = "<group>"; };
 		42307083DB57AD867B2C6C3A /* Pods-ZJJAllModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		533407249376FB9BEAD95209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -57,15 +117,9 @@
 		6003F59B195388D20070C39A /* ZJJAllModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJJAllModule-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZJJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZJJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZJJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZJJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ZJJAllModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJJAllModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63AFE01B32C401BD66BD79C5 /* Pods_ZJJAllModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJJAllModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2D4A53504CC9B54891FB31 /* Pods-ZJJAllModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +136,7 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				0D6FD0D924E13EA800B5B98E /* CoreText.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				F9655F4AD5F6A90C0645BD7D /* Pods_ZJJAllModule_Example.framework in Frameworks */,
 			);
@@ -101,12 +156,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D6FD0B824DD5CBE00B5B98E /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				0D6FD0C024DD5D2200B5B98E /* iCarousel */,
+				0D6FD0BD24DD5D1000B5B98E /* ZJJICarouselViewController.h */,
+				0D6FD0BE24DD5D1000B5B98E /* ZJJICarouselViewController.m */,
+			);
+			name = "轮播图";
+			sourceTree = "<group>";
+		};
+		0D6FD0C024DD5D2200B5B98E /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0D6FD0C224DD5D2200B5B98E /* iCarousel.h */,
+				0D6FD0C124DD5D2200B5B98E /* iCarousel.m */,
+			);
+			name = iCarousel;
+			path = "轮播图/iCarousel";
+			sourceTree = "<group>";
+		};
+		0DAC92B824E767900050BE05 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC92BE24E767900050BE05 /* ZJJViewController.h */,
+				0DAC92CA24E767900050BE05 /* ZJJViewController.m */,
+				0DAC92C724E767900050BE05 /* ZJJTransform3DViewController.h */,
+				0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */,
+				0DAC92C124E767900050BE05 /* ZJJTransform3DViewController.xib */,
+				0DAC92BB24E767900050BE05 /* ZJJCAShaperLayerViewController.h */,
+				0DAC92C624E767900050BE05 /* ZJJCAShaperLayerViewController.m */,
+				0DAC92BC24E767900050BE05 /* ZJJCATextLayerViewController.h */,
+				0DAC92CC24E767900050BE05 /* ZJJCATextLayerViewController.m */,
+				0DAC92C024E767900050BE05 /* ZJJCAGrradientLayerViewController.h */,
+				0DAC92CF24E767900050BE05 /* ZJJCAGrradientLayerViewController.m */,
+				0DAC92C224E767900050BE05 /* ZJJLayerLabel.h */,
+				0DAC92CE24E767900050BE05 /* ZJJLayerLabel.m */,
+				0DAC92C424E767900050BE05 /* ZJJReflectionView.h */,
+				0DAC92D124E767900050BE05 /* ZJJReflectionView.m */,
+				0DAC92B924E767900050BE05 /* ZJJHitTestView.h */,
+				0DAC92C824E767900050BE05 /* ZJJHitTestView.m */,
+				0DAC92BF24E767900050BE05 /* ZJJCAReplicatorLayerViewController.h */,
+				0DAC92C924E767900050BE05 /* ZJJCAReplicatorLayerViewController.m */,
+				0DAC92CD24E767900050BE05 /* ZJJCATransformLayerViewController.h */,
+				0DAC92C324E767900050BE05 /* ZJJCATransformLayerViewController.m */,
+				0DAC92C524E767900050BE05 /* ZJJCAEmitterLayerViewController.h */,
+				0DAC92D024E767900050BE05 /* ZJJCAEmitterLayerViewController.m */,
+				0DAC92CB24E767900050BE05 /* ZJJCAEAGLLayerViewController.h */,
+				0DAC92BD24E767900050BE05 /* ZJJCAEAGLLayerViewController.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		0DAC92DF24E768100050BE05 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC92E024E768370050BE05 /* ZJJDianzanViewController.h */,
+				0DAC92E124E768370050BE05 /* ZJJDianzanViewController.m */,
+				0DAC92E324E7685A0050BE05 /* ZJJDianZanBtn.h */,
+				0DAC92E424E7685A0050BE05 /* ZJJDianZanBtn.m */,
+				0DAC92E924EA14C90050BE05 /* ZJJAnimationViewController.h */,
+				0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */,
+				0DAC92EE24EBBC6E0050BE05 /* ZJJAnimationView.h */,
+				0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZJJAllModule */,
-				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				9F74C81A17AA03A74F844373 /* Pods */,
@@ -125,6 +246,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D6FD0D824E13EA700B5B98E /* CoreText.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -138,11 +260,15 @@
 		6003F593195388D20070C39A /* Example for ZJJAllModule */ = {
 			isa = PBXGroup;
 			children = (
+				0DAC92E624E95CC20050BE05 /* ZJJTableViewController.h */,
+				0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */,
+				0DAC92B824E767900050BE05 /* CALayer */,
+				0DAC92DF24E768100050BE05 /* CoreAnimation */,
 				6003F59C195388D20070C39A /* ZJJAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZJJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZJJViewController.h */,
-				6003F5A6195388D20070C39A /* ZJJViewController.m */,
+				0D6FD0B824DD5CBE00B5B98E /* 轮播图 */,
+				0D6FD0B624DD573C00B5B98E /* AppIcon29x29.png */,
 				0D6FD0B024DBEC7C00B5B98E /* AppIcon60x60.png */,
 				0D6FD0B224DBFBA500B5B98E /* AppIcon1024.png */,
 				0D6FD0B424DBFBC200B5B98E /* AppIcon120x120.png */,
@@ -161,25 +287,6 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* ZJJAllModule-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,7 +342,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				AAE68318B12DAA8B03F66B4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,8 +397,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				0DAC92D424E767900050BE05 /* ZJJTransform3DViewController.xib in Resources */,
 				0D6FD0B324DBFBA500B5B98E /* AppIcon1024.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				0D6FD0B724DD573C00B5B98E /* AppIcon29x29.png in Resources */,
 				0D6FD0B524DBFBC200B5B98E /* AppIcon120x120.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -304,7 +412,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,24 +458,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZJJAllModule_Example/Pods-ZJJAllModule_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAE68318B12DAA8B03F66B4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C34CABD78A6606D9AF997FEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,9 +487,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAC92DA24E767900050BE05 /* ZJJCATextLayerViewController.m in Sources */,
+				0DAC92D624E767900050BE05 /* ZJJCAShaperLayerViewController.m in Sources */,
+				0DAC92DE24E767900050BE05 /* ZJJReflectionView.m in Sources */,
 				6003F59E195388D20070C39A /* ZJJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZJJViewController.m in Sources */,
+				0DAC92F024EBBC6E0050BE05 /* ZJJAnimationView.m in Sources */,
+				0DAC92DB24E767900050BE05 /* ZJJLayerLabel.m in Sources */,
+				0DAC92D724E767900050BE05 /* ZJJHitTestView.m in Sources */,
+				0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */,
+				0DAC92E224E768370050BE05 /* ZJJDianzanViewController.m in Sources */,
+				0DAC92D824E767900050BE05 /* ZJJCAReplicatorLayerViewController.m in Sources */,
+				0DAC92D324E767900050BE05 /* ZJJCAEAGLLayerViewController.m in Sources */,
+				0DAC92DC24E767900050BE05 /* ZJJCAGrradientLayerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0DAC92EB24EA14C90050BE05 /* ZJJAnimationViewController.m in Sources */,
+				0D6FD0BF24DD5D1000B5B98E /* ZJJICarouselViewController.m in Sources */,
+				0DAC92E524E7685A0050BE05 /* ZJJDianZanBtn.m in Sources */,
+				0DAC92D924E767900050BE05 /* ZJJViewController.m in Sources */,
+				0DAC92DD24E767900050BE05 /* ZJJCAEmitterLayerViewController.m in Sources */,
+				0DAC92D524E767900050BE05 /* ZJJCATransformLayerViewController.m in Sources */,
+				0DAC92E824E95CC20050BE05 /* ZJJTableViewController.m in Sources */,
+				0DAC92D224E767900050BE05 /* ZJJTransform3DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +515,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,14 +533,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
