@@ -46,12 +46,19 @@
                        @{@"title":@"动画Demon",
                          @"className":@"ZJJAnimationViewController"
                        },
-//                       @{@"title":@"",
-//                         @"className":@""
-//                       }
-//                       @{@"title":@"",
-//                         @"className":@""
-//                       }
+                       @{@"title":@"显示动画",
+                         @"className":@"ZJJBaseAnimationViewController"
+                       },
+                       @{@"title":@"过渡动画",
+                         @"className":@"ZJJTransitionViewController"
+                       },
+                       @{@"title":@"缓冲动画",
+                         @"className":@"ZJJTIimeFunctionViewController"
+                       },
+                       @{@"title":@"",
+                         @"className":@""
+                       }
+
     ];
 }
 

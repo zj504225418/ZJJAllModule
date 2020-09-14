@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D14334924F559FB009FEC4E /* ZJJTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D14334824F559FB009FEC4E /* ZJJTransitionViewController.m */; };
 		0D6FD0B124DBEC7C00B5B98E /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B024DBEC7C00B5B98E /* AppIcon60x60.png */; };
 		0D6FD0B324DBFBA500B5B98E /* AppIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B224DBFBA500B5B98E /* AppIcon1024.png */; };
 		0D6FD0B524DBFBC200B5B98E /* AppIcon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FD0B424DBFBC200B5B98E /* AppIcon120x120.png */; };
@@ -14,6 +15,7 @@
 		0D6FD0BF24DD5D1000B5B98E /* ZJJICarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FD0BE24DD5D1000B5B98E /* ZJJICarouselViewController.m */; };
 		0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FD0C124DD5D2200B5B98E /* iCarousel.m */; };
 		0D6FD0D924E13EA800B5B98E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6FD0D824E13EA700B5B98E /* CoreText.framework */; };
+		0D9DF7E4250F5ADA00C273CA /* ZJJTransitionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */; };
 		0DAC92D224E767900050BE05 /* ZJJTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */; };
 		0DAC92D324E767900050BE05 /* ZJJCAEAGLLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BD24E767900050BE05 /* ZJJCAEAGLLayerViewController.m */; };
 		0DAC92D424E767900050BE05 /* ZJJTransform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAC92C124E767900050BE05 /* ZJJTransform3DViewController.xib */; };
@@ -31,7 +33,9 @@
 		0DAC92E524E7685A0050BE05 /* ZJJDianZanBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92E424E7685A0050BE05 /* ZJJDianZanBtn.m */; };
 		0DAC92E824E95CC20050BE05 /* ZJJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */; };
 		0DAC92EB24EA14C90050BE05 /* ZJJAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */; };
-		0DAC92F024EBBC6E0050BE05 /* ZJJAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */; };
+		0DAC92F324EC1C440050BE05 /* ZJJBaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92F224EC1C440050BE05 /* ZJJBaseAnimationViewController.m */; };
+		0DF80E7524FC9328003BEC38 /* ZJJTIimeFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF80E7424FC9328003BEC38 /* ZJJTIimeFunctionViewController.m */; };
+		0DF80E7824FE2C6F003BEC38 /* ZJJTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF80E7724FE2C6F003BEC38 /* ZJJTimerViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -59,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D14334724F559FB009FEC4E /* ZJJTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTransitionViewController.h; sourceTree = "<group>"; };
+		0D14334824F559FB009FEC4E /* ZJJTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTransitionViewController.m; sourceTree = "<group>"; };
 		0D6FD0B024DBEC7C00B5B98E /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
 		0D6FD0B224DBFBA500B5B98E /* AppIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon1024.png; sourceTree = "<group>"; };
 		0D6FD0B424DBFBC200B5B98E /* AppIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120x120.png; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 		0D6FD0C124DD5D2200B5B98E /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		0D6FD0C224DD5D2200B5B98E /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		0D6FD0D824E13EA700B5B98E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0D8794C624F3F93C007032AC /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		0D9DF7E2250F5ADA00C273CA /* ZJJTransitionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTransitionTool.h; sourceTree = "<group>"; };
+		0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTransitionTool.m; sourceTree = "<group>"; };
 		0DAC92B924E767900050BE05 /* ZJJHitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJHitTestView.h; sourceTree = "<group>"; };
 		0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJTransform3DViewController.m; sourceTree = "<group>"; };
 		0DAC92BB24E767900050BE05 /* ZJJCAShaperLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAShaperLayerViewController.h; sourceTree = "<group>"; };
@@ -101,8 +110,12 @@
 		0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTableViewController.m; sourceTree = "<group>"; };
 		0DAC92E924EA14C90050BE05 /* ZJJAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJAnimationViewController.h; sourceTree = "<group>"; };
 		0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJAnimationViewController.m; sourceTree = "<group>"; };
-		0DAC92EE24EBBC6E0050BE05 /* ZJJAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJAnimationView.h; sourceTree = "<group>"; };
-		0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJAnimationView.m; sourceTree = "<group>"; };
+		0DAC92F124EC1C440050BE05 /* ZJJBaseAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJBaseAnimationViewController.h; sourceTree = "<group>"; };
+		0DAC92F224EC1C440050BE05 /* ZJJBaseAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJBaseAnimationViewController.m; sourceTree = "<group>"; };
+		0DF80E7324FC9328003BEC38 /* ZJJTIimeFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTIimeFunctionViewController.h; sourceTree = "<group>"; };
+		0DF80E7424FC9328003BEC38 /* ZJJTIimeFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTIimeFunctionViewController.m; sourceTree = "<group>"; };
+		0DF80E7624FE2C6F003BEC38 /* ZJJTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTimerViewController.h; sourceTree = "<group>"; };
+		0DF80E7724FE2C6F003BEC38 /* ZJJTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTimerViewController.m; sourceTree = "<group>"; };
 		103087A7A188D913B16A7EF4 /* ZJJAllModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJJAllModule.podspec; path = ../ZJJAllModule.podspec; sourceTree = "<group>"; };
 		42307083DB57AD867B2C6C3A /* Pods-ZJJAllModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJJAllModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJJAllModule_Tests/Pods-ZJJAllModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		533407249376FB9BEAD95209 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -176,6 +189,15 @@
 			path = "轮播图/iCarousel";
 			sourceTree = "<group>";
 		};
+		0D9DF7E1250F59B200C273CA /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DF7E2250F5ADA00C273CA /* ZJJTransitionTool.h */,
+				0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
 		0DAC92B824E767900050BE05 /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,8 +239,14 @@
 				0DAC92E424E7685A0050BE05 /* ZJJDianZanBtn.m */,
 				0DAC92E924EA14C90050BE05 /* ZJJAnimationViewController.h */,
 				0DAC92EA24EA14C90050BE05 /* ZJJAnimationViewController.m */,
-				0DAC92EE24EBBC6E0050BE05 /* ZJJAnimationView.h */,
-				0DAC92EF24EBBC6E0050BE05 /* ZJJAnimationView.m */,
+				0DAC92F124EC1C440050BE05 /* ZJJBaseAnimationViewController.h */,
+				0DAC92F224EC1C440050BE05 /* ZJJBaseAnimationViewController.m */,
+				0D14334724F559FB009FEC4E /* ZJJTransitionViewController.h */,
+				0D14334824F559FB009FEC4E /* ZJJTransitionViewController.m */,
+				0DF80E7324FC9328003BEC38 /* ZJJTIimeFunctionViewController.h */,
+				0DF80E7424FC9328003BEC38 /* ZJJTIimeFunctionViewController.m */,
+				0DF80E7624FE2C6F003BEC38 /* ZJJTimerViewController.h */,
+				0DF80E7724FE2C6F003BEC38 /* ZJJTimerViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -262,10 +290,12 @@
 			children = (
 				0DAC92E624E95CC20050BE05 /* ZJJTableViewController.h */,
 				0DAC92E724E95CC20050BE05 /* ZJJTableViewController.m */,
+				0D8794C624F3F93C007032AC /* Location.gpx */,
 				0DAC92B824E767900050BE05 /* CALayer */,
 				0DAC92DF24E768100050BE05 /* CoreAnimation */,
 				6003F59C195388D20070C39A /* ZJJAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZJJAppDelegate.m */,
+				0D9DF7E1250F59B200C273CA /* 转场动画 */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				0D6FD0B824DD5CBE00B5B98E /* 轮播图 */,
 				0D6FD0B624DD573C00B5B98E /* AppIcon29x29.png */,
@@ -489,23 +519,27 @@
 			files = (
 				0DAC92DA24E767900050BE05 /* ZJJCATextLayerViewController.m in Sources */,
 				0DAC92D624E767900050BE05 /* ZJJCAShaperLayerViewController.m in Sources */,
+				0D14334924F559FB009FEC4E /* ZJJTransitionViewController.m in Sources */,
 				0DAC92DE24E767900050BE05 /* ZJJReflectionView.m in Sources */,
 				6003F59E195388D20070C39A /* ZJJAppDelegate.m in Sources */,
-				0DAC92F024EBBC6E0050BE05 /* ZJJAnimationView.m in Sources */,
 				0DAC92DB24E767900050BE05 /* ZJJLayerLabel.m in Sources */,
 				0DAC92D724E767900050BE05 /* ZJJHitTestView.m in Sources */,
 				0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */,
 				0DAC92E224E768370050BE05 /* ZJJDianzanViewController.m in Sources */,
+				0DF80E7824FE2C6F003BEC38 /* ZJJTimerViewController.m in Sources */,
 				0DAC92D824E767900050BE05 /* ZJJCAReplicatorLayerViewController.m in Sources */,
+				0D9DF7E4250F5ADA00C273CA /* ZJJTransitionTool.m in Sources */,
 				0DAC92D324E767900050BE05 /* ZJJCAEAGLLayerViewController.m in Sources */,
 				0DAC92DC24E767900050BE05 /* ZJJCAGrradientLayerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				0DAC92EB24EA14C90050BE05 /* ZJJAnimationViewController.m in Sources */,
+				0DAC92F324EC1C440050BE05 /* ZJJBaseAnimationViewController.m in Sources */,
 				0D6FD0BF24DD5D1000B5B98E /* ZJJICarouselViewController.m in Sources */,
 				0DAC92E524E7685A0050BE05 /* ZJJDianZanBtn.m in Sources */,
 				0DAC92D924E767900050BE05 /* ZJJViewController.m in Sources */,
 				0DAC92DD24E767900050BE05 /* ZJJCAEmitterLayerViewController.m in Sources */,
 				0DAC92D524E767900050BE05 /* ZJJCATransformLayerViewController.m in Sources */,
+				0DF80E7524FC9328003BEC38 /* ZJJTIimeFunctionViewController.m in Sources */,
 				0DAC92E824E95CC20050BE05 /* ZJJTableViewController.m in Sources */,
 				0DAC92D224E767900050BE05 /* ZJJTransform3DViewController.m in Sources */,
 			);

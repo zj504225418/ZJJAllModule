@@ -1,8 +1,8 @@
 //
-//  ZJJAnimationView.h
+//  ZJJTimerViewController.h
 //  ZJJAllModule_Example
 //
-//  Created by 赵静静 on 2020/8/18.
+//  Created by 赵静静 on 2020/9/1.
 //  Copyright © 2020 zj504225418. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZJJAnimationView : UIView
+@interface ZJJTimerViewController : UIViewController
 
 @end
 

@@ -157,6 +157,23 @@
 
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [super touchesBegan:touches withEvent:event];
+
+    CGPoint point  = [[touches anyObject] locationInView:self.view];
+    if ([self.layer1.presentationLayer hitTest:point]) {
+        //点在layer上变颜色，哪怕在移动过程中也可以变色，如果用的不是presentationLayer，则只能点击最终位置才能变色
+        self.layer1.backgroundColor = [UIColor redColor].CGColor;
+    }else{
+        //如果不在layer上，则中心点移动到点击位置
+        [CATransaction begin];
+        [CATransaction setAnimationDuration:4.0];
+        self.layer1.position = point;
+        [CATransaction commit];
+    }
+}
+
 - (IBAction)clickBtn1:(UIButton *)sender {
 
 }

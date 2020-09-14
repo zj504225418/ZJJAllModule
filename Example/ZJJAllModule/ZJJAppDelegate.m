@@ -7,12 +7,37 @@
 //
 
 #import "ZJJAppDelegate.h"
+@interface ZJJAppDelegate()
 
+@property(nonatomic,strong)UITabBarController *tabBarController;
+@end
 @implementation ZJJAppDelegate
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+
+    NSLog(@"123");
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    [self.tabBarController.view.layer addAnimation:transition forKey:nil];
+
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    UIViewController *first = [[UIViewController alloc]init];
+//    UIViewController *second = [[UIViewController alloc]init];
+//    first.view.backgroundColor = [UIColor yellowColor];
+//    second.view.backgroundColor = [UIColor orangeColor];
+//    self.tabBarController = [[UITabBarController alloc]init];
+//    self.tabBarController.viewControllers = @[first, second];
+//    self.tabBarController.delegate = self;
+//    self.window.rootViewController = self.tabBarController;
+//    [self.window makeKeyAndVisible];
+
+    UITabBarController *tab = self.window.rootViewController;
+    tab.delegate = self;
     return YES;
 }
 
