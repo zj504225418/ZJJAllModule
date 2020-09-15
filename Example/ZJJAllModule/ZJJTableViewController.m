@@ -55,8 +55,8 @@
                        @{@"title":@"缓冲动画",
                          @"className":@"ZJJTIimeFunctionViewController"
                        },
-                       @{@"title":@"",
-                         @"className":@""
+                       @{@"title":@"转场动画",
+                         @"className":@"ZJJPushViewController"
                        }
 
     ];
@@ -89,6 +89,7 @@
     Class class = NSClassFromString(className);
     UIViewController *vc = [[class alloc]init];
     vc.view.backgroundColor = [UIColor whiteColor];
+    vc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:vc animated:YES];
 }
 

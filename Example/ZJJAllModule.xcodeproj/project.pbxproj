@@ -16,6 +16,9 @@
 		0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FD0C124DD5D2200B5B98E /* iCarousel.m */; };
 		0D6FD0D924E13EA800B5B98E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6FD0D824E13EA700B5B98E /* CoreText.framework */; };
 		0D9DF7E4250F5ADA00C273CA /* ZJJTransitionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */; };
+		0D9DF7E7250F6CE800C273CA /* ZJJPushTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF7E6250F6CE800C273CA /* ZJJPushTool.m */; };
+		0D9DF7EA250F6F1800C273CA /* ZJJPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF7E9250F6F1800C273CA /* ZJJPopViewController.m */; };
+		0D9DF7ED250F6F4600C273CA /* ZJJPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF7EC250F6F4600C273CA /* ZJJPushViewController.m */; };
 		0DAC92D224E767900050BE05 /* ZJJTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */; };
 		0DAC92D324E767900050BE05 /* ZJJCAEAGLLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC92BD24E767900050BE05 /* ZJJCAEAGLLayerViewController.m */; };
 		0DAC92D424E767900050BE05 /* ZJJTransform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAC92C124E767900050BE05 /* ZJJTransform3DViewController.xib */; };
@@ -77,6 +80,12 @@
 		0D8794C624F3F93C007032AC /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		0D9DF7E2250F5ADA00C273CA /* ZJJTransitionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJTransitionTool.h; sourceTree = "<group>"; };
 		0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJTransitionTool.m; sourceTree = "<group>"; };
+		0D9DF7E5250F6CE800C273CA /* ZJJPushTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJPushTool.h; sourceTree = "<group>"; };
+		0D9DF7E6250F6CE800C273CA /* ZJJPushTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJPushTool.m; sourceTree = "<group>"; };
+		0D9DF7E8250F6F1800C273CA /* ZJJPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJPopViewController.h; sourceTree = "<group>"; };
+		0D9DF7E9250F6F1800C273CA /* ZJJPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJPopViewController.m; sourceTree = "<group>"; };
+		0D9DF7EB250F6F4600C273CA /* ZJJPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJPushViewController.h; sourceTree = "<group>"; };
+		0D9DF7EC250F6F4600C273CA /* ZJJPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJPushViewController.m; sourceTree = "<group>"; };
 		0DAC92B924E767900050BE05 /* ZJJHitTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJHitTestView.h; sourceTree = "<group>"; };
 		0DAC92BA24E767900050BE05 /* ZJJTransform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJTransform3DViewController.m; sourceTree = "<group>"; };
 		0DAC92BB24E767900050BE05 /* ZJJCAShaperLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJCAShaperLayerViewController.h; sourceTree = "<group>"; };
@@ -194,6 +203,12 @@
 			children = (
 				0D9DF7E2250F5ADA00C273CA /* ZJJTransitionTool.h */,
 				0D9DF7E3250F5ADA00C273CA /* ZJJTransitionTool.m */,
+				0D9DF7E5250F6CE800C273CA /* ZJJPushTool.h */,
+				0D9DF7E6250F6CE800C273CA /* ZJJPushTool.m */,
+				0D9DF7EB250F6F4600C273CA /* ZJJPushViewController.h */,
+				0D9DF7EC250F6F4600C273CA /* ZJJPushViewController.m */,
+				0D9DF7E8250F6F1800C273CA /* ZJJPopViewController.h */,
+				0D9DF7E9250F6F1800C273CA /* ZJJPopViewController.m */,
 			);
 			path = "转场动画";
 			sourceTree = "<group>";
@@ -521,8 +536,10 @@
 				0DAC92D624E767900050BE05 /* ZJJCAShaperLayerViewController.m in Sources */,
 				0D14334924F559FB009FEC4E /* ZJJTransitionViewController.m in Sources */,
 				0DAC92DE24E767900050BE05 /* ZJJReflectionView.m in Sources */,
+				0D9DF7E7250F6CE800C273CA /* ZJJPushTool.m in Sources */,
 				6003F59E195388D20070C39A /* ZJJAppDelegate.m in Sources */,
 				0DAC92DB24E767900050BE05 /* ZJJLayerLabel.m in Sources */,
+				0D9DF7ED250F6F4600C273CA /* ZJJPushViewController.m in Sources */,
 				0DAC92D724E767900050BE05 /* ZJJHitTestView.m in Sources */,
 				0D6FD0C324DD5D2200B5B98E /* iCarousel.m in Sources */,
 				0DAC92E224E768370050BE05 /* ZJJDianzanViewController.m in Sources */,
@@ -537,6 +554,7 @@
 				0D6FD0BF24DD5D1000B5B98E /* ZJJICarouselViewController.m in Sources */,
 				0DAC92E524E7685A0050BE05 /* ZJJDianZanBtn.m in Sources */,
 				0DAC92D924E767900050BE05 /* ZJJViewController.m in Sources */,
+				0D9DF7EA250F6F1800C273CA /* ZJJPopViewController.m in Sources */,
 				0DAC92DD24E767900050BE05 /* ZJJCAEmitterLayerViewController.m in Sources */,
 				0DAC92D524E767900050BE05 /* ZJJCATransformLayerViewController.m in Sources */,
 				0DF80E7524FC9328003BEC38 /* ZJJTIimeFunctionViewController.m in Sources */,
